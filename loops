@@ -1,0 +1,18 @@
+def student_result(name, python_marks, sql_marks, powerbi_marks):
+    total = python_marks + sql_marks + powerbi_marks
+    average = total / 3
+    print("Student Name :", name)
+    print("Python Marks :", python_marks)
+    print("SQL Marks :", sql_marks)
+    print("Power BI Marks :", powerbi_marks)
+    print("Total Marks :", total)
+    print("Average :", average)
+    if average >= 90:
+        print("Grade : A")
+    elif average >= 75:
+        print("Grade : B")
+    elif average >= 50:
+        print("Grade : C")
+    else:
+        print("Result : Fail")
+student_result("Sai Deepthi", 95, 88, 82)

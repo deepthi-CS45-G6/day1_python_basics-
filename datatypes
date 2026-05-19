@@ -1,0 +1,28 @@
+# INT
+age = 21
+marks = 95
+print(age)
+print(type(age))
+print(marks)
+print(type(marks))
+# Float
+height = 5.8
+price = 499.99
+print(height)
+print(type(height))
+print(price)
+print(type(price))
+# String
+name = "Sai Deepthi"
+city = "Guntur"
+print(name)
+print(type(name))
+print(city)
+print(type(city))
+#Boolean
+a=10
+b=20
+if a<b:
+    print("True")
+else:
+    print("False")
