@@ -1,4 +1,5 @@
 This respository includes Python variables, Data types, conditions, Loops, Functions.
+
 1.Variables:
  variables are used to store data values.
  Rules for creating variables names:
